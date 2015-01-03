@@ -1,0 +1,231 @@
+/* Footer */
+.site-footer {
+	padding-top: 20px;
+	background: #f1f2f3;
+	color: #b1b2b3;
+	font-size: 0.73em;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-left: -40px;
+	width: 100%;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	@media screen and (max-width: 767px) {
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-left: -20px;
+	}
+	a, a:visited {
+		color: inherit;
+		text-decoration: none;
+	}
+	a:hover, a:focus, a:active {
+		color: #7f8d8c;
+	}
+}
+
+.site-info {
+	float: left;
+	padding-bottom: 20px;
+	width: 50%;
+	line-height: 40px;
+	@media screen and (max-width: 959px) {
+		float: none;
+		width: 100%;
+		line-height: inherit;
+		text-align: center;
+	}
+}
+
+/*
+	Global styles for WordPress.com
+*/
+img.latex {
+	border: none;
+	vertical-align: middle;
+}
+.video-player {
+	border: 0;
+	margin: auto;
+	padding: 5px;
+	text-align: center;
+	max-width: 100%;
+}
+.wpvidavee_title {
+	font-family: Tahoma,Arial,sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 12px;
+	padding: 2px 5px;
+	text-align: left;
+}
+.wpvidavee_footer {
+	font-family: Tahoma,Arial,sans-serif;
+	font-size: 9px;
+	line-height: 11px;
+	padding: 2px 5px;
+	text-align: right;
+}
+.wpvidavee_footer a {
+	text-decoration: none;
+}
+.wpvidavee_p {
+	color: red;
+}
+.hidden {
+	display: none;
+}
+.possibly-related {
+	clear: both;
+}
+.screen-reader-text {
+	position: absolute;
+	left: -1000em;
+}
+.comment object,
+.comment embed,
+.embed-vimeo iframe,
+.embed-youtube iframe {
+	max-width: 100%; /* avoid videos being too wide */
+}
+
+
+/*--------------------------------------------------------------
+Social
+--------------------------------------------------------------*/
+
+.menu-social {
+  clear: both;
+  display: block;
+  float: right;
+  width: 50%;
+  text-align: center;
+  ul {
+    display: block;
+    float: right;
+    margin: 0 0 10px;
+  }
+  li {
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+    line-height: 1;
+    &:last-child {
+      margin-right: 0;
+    }
+    a {
+      display: inline-block;
+      position: relative;
+      width: 40px;
+      height: 40px;
+      border: 2px solid #b1b2b3;
+      text-decoration: none;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%;
+      -webkit-transition: all 250ms ease;
+      -moz-transition: all 250ms ease;
+      -o-transition: all 250ms ease;
+      transition: all 250ms ease;
+      &:hover, &:focus, &:active {
+        border-color: #e06d5e;
+      }
+      &:hover, &:focus, &:active {
+        color: #e06d5e;
+      }
+      &:before {
+        content: "\f408";
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 16px;
+        line-height: 38px;
+        font-family: 'Genericons';
+        text-decoration: inherit;
+        font-weight: normal;
+        font-style: normal;
+        vertical-align: top;
+      }
+      &[href$="/feed/"]:before {
+        content: '\f413';
+      }
+      &[href*="codepen.io"]:before {
+        content: '\f216';
+      }
+      &[href*="digg.com"]:before {
+        content: '\f221';
+      }
+      &[href*="dribbble.com"]:before {
+        content: '\f201';
+      }
+      &[href*="dropbox.com"]:before {
+        content: '\f225';
+      }
+      &[href*="mailto:"]:before {
+        content: '\f410';
+      }
+      &[href*="facebook.com"]:before {
+        content: '\f203';
+      }
+      &[href*="flickr.com"]:before {
+        content: '\f211';
+      }
+      &[href*="github.com"]:before {
+        content: '\f200';
+      }
+      &[href*="plus.google.com"]:before {
+        content: '\f206';
+      }
+      &[href*="instagram.com"]:before {
+        content: '\f215';
+      }
+      &[href*="linkedin.com"]:before {
+        content: '\f208';
+      }
+      &[href*="pinterest.com"]:before {
+        content: '\f210';
+      }
+      &[href*="getpocket.com"]:before {
+        content: '\f224';
+      }
+      &[href*="polldaddy.com"]:before {
+        content: '\f217';
+      }
+      &[href*="reddit.com"]:before {
+        content: '\f222';
+      }
+      &[href*="stumbleupon.com"]:before {
+        content: '\f223';
+      }
+      &[href*="tumblr.com"]:before {
+        content: '\f214';
+      }
+      &[href*="twitter.com"]:before {
+        content: '\f202';
+      }
+      &[href*="vimeo.com"]:before {
+        content: '\f212';
+      }
+      &[href*="wordpress.com"]:before, &[href*="wordpress.org"]:before {
+        content: '\f205';
+      }
+      &[href*="youtube.com"]:before {
+        content: '\f213';
+      }
+    }
+  }
+  @media screen and (max-width: 959px) {
+    float: none;
+    width: 100%;
+    ul {
+      display: inline-block;
+      float: none;
+      margin: 0 auto;
+    }
+  }
+}

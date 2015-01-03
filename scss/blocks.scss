@@ -1,0 +1,144 @@
+
+/* Blocks */
+.site-branding,
+.site-image,
+.main-navigation,
+.footer-area,
+.nav-links,
+.entry-thumbnail,
+.entry-gallery,
+.entry-media,
+.hentry.format-video > .video-wrapper {
+  width: 840px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 1220px) {
+  .site-branding,
+  .site-image,
+  .main-navigation,
+  .footer-area,
+  .nav-links,
+  .entry-thumbnail,
+  .entry-gallery,
+  .entry-media,
+  .hentry.format-video > .video-wrapper {
+    width: 1100px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 959px) {
+  .site-branding,
+  .site-image,
+  .main-navigation,
+  .footer-area,
+  .nav-links,
+  .entry-thumbnail,
+  .entry-gallery,
+  .entry-media,
+  .hentry.format-video > .video-wrapper {
+    width: 648px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .site-branding {
+    width: auto;
+  }
+  .site-image,
+  .main-navigation,
+  .footer-area,
+  .nav-links,
+  .entry-thumbnail,
+  .entry-gallery,
+  .entry-media,
+  .hentry.format-video > .video-wrapper {
+    width: 100%;
+  }
+}
+
+.widgets-area {
+  width: 880px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 1220px) {
+  .widgets-area {
+    width: 1140px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 959px) {
+  .widgets-area {
+    width: 688px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .widgets-area {
+    width: 100%;
+  }
+}
+
+.portfolio-wrapper {
+  width: 880px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 1220px) {
+  .portfolio-wrapper {
+    width: 1140px;
+  }
+}
+
+.page-header,
+.entry-header,
+.page-content,
+.entry-content,
+.entry-summary,
+.entry-avatar,
+.entry-meta,
+.entry-sharedaddy,
+.portfolio-sharedaddy,
+.comments-title,
+.comment-list,
+.comment-reply-title,
+.comment-form {
+  width: 840px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 768px) and (max-width: 959px) {
+  .page-header,
+  .entry-header,
+  .page-content,
+  .entry-content,
+  .entry-summary,
+  .entry-avatar,
+  .entry-meta,
+  .entry-sharedaddy,
+  .portfolio-sharedaddy,
+  .comments-title,
+  .comment-list,
+  .comment-reply-title,
+  .comment-form {
+    width: 648px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .page-header,
+  .entry-header,
+  .page-content,
+  .entry-content,
+  .entry-summary,
+  .entry-avatar,
+  .entry-meta,
+  .entry-sharedaddy,
+  .portfolio-sharedaddy,
+  .comments-title,
+  .comment-list,
+  .comment-reply-title,
+  .comment-form {
+    width: 100%;
+  }
+}

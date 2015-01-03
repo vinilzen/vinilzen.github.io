@@ -1,0 +1,40 @@
+/*--------------------------------------------------------------
+Clearings
+--------------------------------------------------------------*/
+.clear:before, .clear:after,
+.entry-content:before,
+.entry-content:after,
+.comment-content:before,
+.comment-content:after,
+.site-header:before,
+.site-header:after,
+.site-main:before,
+.site-main:after,
+.site-content:before,
+.site-content:after,
+.page-content:before,
+.page-content:after,
+.site-footer:before,
+.site-footer:after,
+.nav-links:before,
+.nav-links:after,
+.gallery:before,
+.gallery:after,
+.sharedaddy:before,
+.sharedaddy:after {
+  content: '';
+  display: table;
+}
+.clear:after,
+.entry-content:after,
+.comment-content:after,
+.site-header:after,
+.site-main:after,
+.site-content:after,
+.page-content:after,
+.site-footer:after,
+.nav-links:after,
+.gallery:after,
+.sharedaddy:after {
+  clear: both;
+}

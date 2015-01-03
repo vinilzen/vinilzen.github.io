@@ -1,0 +1,36 @@
+/*--------------------------------------------------------------
+Alignments
+--------------------------------------------------------------*/
+.alignleft {
+  display: inline;
+  float: left;
+  margin: 20px 40px 20px 0;
+}
+@media screen and (min-width: 1220px) {
+  .alignleft {
+    margin-left: -130px;
+  }
+  .alignleft + .alignleft {
+    margin-left: 0;
+  }
+}
+
+.alignright {
+  display: inline;
+  float: right;
+  margin: 20px 0 40px 20px;
+}
+@media screen and (min-width: 1220px) {
+  .alignright {
+    margin-right: -130px;
+  }
+  .alignright + .alignright {
+    margin-right: 0;
+  }
+}
+
+.aligncenter {
+  clear: both;
+  display: block;
+  margin: 0 auto;
+}

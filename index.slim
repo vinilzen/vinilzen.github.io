@@ -1,0 +1,166 @@
+html
+  head
+    title PORTFOLIO
+    link href="css/main.css" rel="stylesheet"
+  body
+    #page.hfeed.site
+      header#masthead.site-header role="banner" 
+        .site-branding
+          h1.site-title
+            a href="http://illustratrdemo.wordpress.com/" rel="home"  WEB DEVELOPER
+          h2.site-description I prefer minimalist rapid prototyping
+        nav.main-navigation role="navigation" 
+          h1.menu-toggle
+            span.genericon.genericon-menu
+              span.screen-reader-text Menu
+          a.skip-link.screen-reader-text href="#content"  Skip to content
+          .menu-wrapper
+            ul.clear.nav-menu
+              li.menu-item.menu-item-type-post_type.menu-item-object-page.current-menu-item.page_item.current_page_item
+                a href="http://illustratrdemo.wordpress.com/"  Home
+              li.menu-item.menu-item-type-post_type.menu-item-object-page.current-menu-ancestor.current-menu-parent.current_page_parent.current_page_ancestor.menu-item-has-children
+                a href="http://illustratrdemo.wordpress.com/page-templates/"  Page Templates
+                ul.sub-menu
+                  li.menu-item.menu-item-type-post_type.menu-item-object-page
+                    a href="http://illustratrdemo.wordpress.com/page-templates/default-page-template/"  Default Page Template
+                  li.menu-item.menu-item-type-post_type.menu-item-object-page.current-menu-item.page_item.current_page_item
+                    a href="http://illustratrdemo.wordpress.com/"  Portfolio Page Template
+              li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-has-children
+                a href="http://illustratrdemo.wordpress.com/portfolio/"  Portfolio
+                ul.sub-menu
+                  li.menu-item.menu-item-type-taxonomy.menu-item-object-jetpack-portfolio-type
+                    a href="http://illustratrdemo.wordpress.com/project-type/app-design/"  App Design
+                  li.menu-item.menu-item-type-taxonomy.menu-item-object-jetpack-portfolio-type
+                    a href="http://illustratrdemo.wordpress.com/project-type/corporate-identity/"  Corporate Identity
+                  li.menu-item.menu-item-type-taxonomy.menu-item-object-jetpack-portfolio-type
+                    a href="http://illustratrdemo.wordpress.com/project-type/icon-design/"  Icon Design
+                  li.menu-item.menu-item-type-taxonomy.menu-item-object-jetpack-portfolio-type
+                    a href="http://illustratrdemo.wordpress.com/project-type/lettering/"  Lettering
+                  li.menu-item.menu-item-type-taxonomy.menu-item-object-jetpack-portfolio-type
+                    a href="http://illustratrdemo.wordpress.com/project-type/post-format-video/"  Video
+                  li.menu-item.menu-item-type-post_type.menu-item-object-page
+                    a href="http://illustratrdemo.wordpress.com/portfolio-shortcode/"  Shortcode Example
+              li.menu-item.menu-item-type-post_type.menu-item-object-page
+                a href="http://illustratrdemo.wordpress.com/blog/"  Blog
+              li.menu-item.menu-item-type-post_type.menu-item-object-page
+                a href="http://illustratrdemo.wordpress.com/image-alignment-and-styles/"  Image Alignment and Styles
+              li.menu-item.menu-item-type-post_type.menu-item-object-page
+                a href="http://illustratrdemo.wordpress.com/html-elements/"  HTML Elements
+      #spinner
+      #content.site-content
+        #primary.content-area 
+          main#main.site-main role="main" 
+            header.page-header
+              h1.page-title Hello, I am web developer and this is my&nbsp;portfolio.
+            .page-content
+              p
+                | This page about Me. The content on the page goes here and the heading above is the page title. This page also displays projects as you can see below. You can add projects from
+                em  Portfolio &#8594; Add New in the admin.
+                | in the admin.
+              p In the Customizer, you can hide the heading and the content completely if you wish.
+            .portfolio-wrapper.masonry 
+              article.jetpack-portfolio.type-jetpack-portfolio.status-publish.format-standard.has-post-thumbnail.hentry.empty-entry-meta.portfolio-entry.masonry-brick 
+                .portfolio-thumbnail
+                  a href="#" 
+                    img.attachment-illustratr-portfolio-featured-image.wp-post-image alt="" height="800" originalw="800" scale="1" src="img/w/docturu_main_narrow.jpg" width="800" /
+                header.portfolio-entry-header
+                  h1.entry-title
+                    a href="http://illustratrdemo.wordpress.com/portfolio/chrome-os-music-app/" DOCTU.RU Desktop and Mobile
+                  span.portfolio-entry-meta
+                    a href="http://illustratrdemo.wordpress.com/project-type/app-design/" Front End
+              article.jetpack-portfolio.type-jetpack-portfolio.status-publish.format-standard.has-post-thumbnail.hentry.empty-entry-meta.portfolio-entry.masonry-brick 
+                .portfolio-thumbnail
+                  a href="http://illustratrdemo.wordpress.com/portfolio/writting-downtown/" 
+                    img.attachment-illustratr-portfolio-featured-image.wp-post-image alt="writing-downtown-1" height="530" originalw="800" scale="1" src="img/w/Qwest_Main.png" width="800" /
+                header.portfolio-entry-header
+                  h1.entry-title
+                    a href="#" rel="bookmark" CityQuest
+                  span.portfolio-entry-meta
+                    a href="#" rel="tag" Front End & Backend
+              article.jetpack-portfolio.type-jetpack-portfolio.status-publish.format-standard.has-post-thumbnail.hentry.empty-entry-meta.portfolio-entry.masonry-brick
+                .portfolio-thumbnail
+                  a href="#" 
+                    img.attachment-illustratr-portfolio-featured-image.wp-post-image alt="weekend-1" height="533" originalw="800" scale="1" src="img/w/prezent.jpg" width="800" /
+                header.portfolio-entry-header
+                  h1.entry-title
+                    a href="#" rel="bookmark" PREZENT
+                  span.portfolio-entry-meta
+                    a href="#" rel="tag" Logo
+              article.jetpack-portfolio.type-jetpack-portfolio.status-publish.format-standard.has-post-thumbnail.hentry.empty-entry-meta.portfolio-entry.masonry-brick 
+                .portfolio-thumbnail
+                  a href="#" 
+                    img.attachment-illustratr-portfolio-featured-image.wp-post-image alt="piano-works-13-3" height="450" originalw="800" scale="1" src="img/w/1200_Pandra_.jpg" width="800" /
+                header.portfolio-entry-header
+                  h1.entry-title
+                    a href="#" rel="bookmark" Pandra Mobile
+                  span.portfolio-entry-meta
+                    a href="#" rel="tag" Front End
+              article.jetpack-portfolio.type-jetpack-portfolio.status-publish.format-standard.has-post-thumbnail.hentry.empty-entry-meta.portfolio-entry.masonry-brick 
+                .portfolio-thumbnail
+                  a href="#" 
+                    img.attachment-illustratr-portfolio-featured-image.wp-post-image alt="thin-icons-set-fi" height="1046" originalw="800" scale="1" src="img/w/GS-School-all.jpg" width="800" /
+                header.portfolio-entry-header
+                  h1.entry-title
+                    a href="#" rel="bookmark" School
+                  span.portfolio-entry-meta
+                    a href="#" rel="tag" Front End
+              article.jetpack-portfolio.type-jetpack-portfolio.status-publish.format-standard.has-post-thumbnail.hentry.empty-entry-meta.portfolio-entry.masonry-brick 
+                .portfolio-thumbnail
+                  a href="" 
+                    img.attachment-illustratr-portfolio-featured-image.wp-post-image alt="" height="457" originalw="800" scale="1" src="img/w/minskonsight.png" width="800" /
+                header.portfolio-entry-header
+                  h1.entry-title
+                    a href="#" rel="bookmark" MinskOnsight
+                  span.portfolio-entry-meta
+                    a href="#" rel="tag" Full
+              article#post-181.post-181.jetpack-portfolio.type-jetpack-portfolio.status-publish.format-standard.has-post-thumbnail.hentry.empty-entry-meta.portfolio-entry.masonry-brick
+                .portfolio-thumbnail
+                  a href="#" 
+                    img.attachment-illustratr-portfolio-featured-image.wp-post-image alt="chrome-os-camera-app-icon-fi" height="800" originalw="800" scale="1" src="img/w/Social_mart.jpg" width="800" /
+                header.portfolio-entry-header
+                  h1.entry-title
+                    a href="#" rel="bookmark" Social Mart
+                  span.portfolio-entry-meta
+                    a href="#" rel="tag" Responsive Front End
+              article#post-185.post-185.jetpack-portfolio.type-jetpack-portfolio.status-publish.format-standard.has-post-thumbnail.hentry.empty-entry-meta.portfolio-entry.masonry-brick
+                .portfolio-thumbnail
+                  a href="#" 
+                    img.attachment-illustratr-portfolio-featured-image.wp-post-image alt="" height="800" originalw="800" scale="1" src="img/w/to4ek_net.jpg" width="800" /
+                header.portfolio-entry-header
+                  h1.entry-title
+                    a href="#" rel="bookmark" TO4EK.NET
+                  span.portfolio-entry-meta
+                    a href="#" rel="tag" Full
+              article.jetpack-portfolio.type-jetpack-portfolio.status-publish.format-standard.has-post-thumbnail.hentry.empty-entry-meta.portfolio-entry.masonry-brick 
+                .portfolio-thumbnail
+                  a href="#" 
+                    img.attachment-illustratr-portfolio-featured-image.wp-post-image alt="" height="475" originalw="800" scale="1" src="img/w/CSSCircleProgressBar.png" width="800" /
+                header.portfolio-entry-header
+                  h1.entry-title
+                    a href="" rel="bookmark" Pure CSS Progress
+                  span.portfolio-entry-meta
+                    a href="http://illustratrdemo.wordpress.com/project-type/corporate-identity/" rel="tag" CSS
+      footer#colophon.site-footer role="contentinfo" 
+        .footer-area.clear
+          .menu-social
+            ul#menu-social.clear
+              li.menu-item
+                a href="http://themeshaper.com/feed/" 
+                  span.screen-reader-text RSS
+              li.menu-item
+                a href="http://www.facebook.com/" 
+                  span.screen-reader-text Facebook
+              li.menu-item
+                a href="http://vimeo.com/" 
+                  span.screen-reader-text Vimeo
+          .site-info
+            a href="https://wordpress.com/?ref=footer_blog" Blog at WordPress.com
+            | \.
+            span.sep \
+            a href="https://wordpress.com/themes/illustratr/" title=("Learn more about this theme")  The Illustratr Theme
+            | by
+            a href="https://wordpress.com/themes/" rel="designer" WordPress.com
+    script src="js/jquery-2.1.3.min.js"
+    script src="js/imagesloaded.min.js"
+    script src="js/masonry.pkgd.min.js"
+    script src="js/main.js"

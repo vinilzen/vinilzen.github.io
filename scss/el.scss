@@ -1,0 +1,69 @@
+/*--------------------------------------------------------------
+Elements
+--------------------------------------------------------------*/
+hr {
+	margin-bottom: 20px;
+	height: 1px;
+	background: #f1f2f3;
+	border: 0;
+}
+
+ul,
+ol {
+	margin: 0 0 20px;
+}
+
+ul {
+	list-style: disc inside;
+}
+
+ol {
+	list-style: decimal inside;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 40px;
+}
+@media screen and (max-width: 767px) {
+	li > ul,
+	li > ol {
+		margin-left: 20px;
+	}
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 20px 20px;
+}
+
+figure {
+	margin: 0;
+}
+
+table {
+	margin: 0 0 20px;
+	width: 100%;
+	border-top: 1px solid #f1f2f3;
+}
+
+th {
+	background: #f1f2f3;
+	font-weight: bold;
+}
+
+th,
+td {
+	padding: 10px 20px;
+	border-bottom: 1px solid #f1f2f3;
+}
+@media screen and (max-width: 767px) {
+	th,
+	td {
+		padding: 5px 10px;
+	}
+}

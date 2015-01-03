@@ -1,0 +1,159 @@
+/*--------------------------------------------------------------
+Navigation
+--------------------------------------------------------------*/
+/* Links */
+a {
+	color: #e06d5e;
+}
+a:hover, a:focus, a:active {
+	color: #7f8d8c;
+}
+
+/*  Pagination */
+.site-main .comment-navigation,
+.site-main .paging-navigation,
+.site-main .post-navigation {
+	position: relative;
+	padding-bottom: 20px;
+	padding-top: 81px;
+	margin-top: 60px;
+}
+.site-main .comment-navigation {
+	margin-bottom: 80px;
+	padding-bottom: 81px;
+}
+@media screen and (max-width: 767px) {
+	.site-main .comment-navigation,
+	.site-main .paging-navigation,
+	.site-main .post-navigation {
+		margin-top: 20px;
+		padding-top: 41px;
+	}
+	.site-main .comment-navigation {
+		margin-bottom: 40px;
+		padding-bottom: 41px;
+	}
+}
+.site-main .comment-navigation:before,
+.site-main .paging-navigation:before,
+.site-main .post-navigation:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	z-index: 0;
+	height: 1px;
+	background: #f1f2f3;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-left: -40px;
+	width: 100%;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.site-main .comment-navigation:after {
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: 0;
+	z-index: 0;
+	height: 1px;
+	background: #f1f2f3;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-left: -40px;
+	width: 100%;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+@media screen and (max-width: 767px) {
+	.site-main .comment-navigation:before,
+	.site-main .paging-navigation:before,
+	.site-main .post-navigation:before {
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-left: -20px;
+	}
+	.site-main .comment-navigation:after {
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-left: -20px;
+	}
+}
+.site-main .comment-navigation .nav-previous,
+.site-main .comment-navigation .nav-next,
+.site-main .paging-navigation .nav-previous,
+.site-main .paging-navigation .nav-next,
+.site-main .post-navigation .nav-previous,
+.site-main .post-navigation .nav-next {
+	width: 50%;
+}
+.site-main .comment-navigation .nav-previous,
+.site-main .paging-navigation .nav-previous,
+.site-main .post-navigation .nav-previous {
+	float: left;
+}
+.site-main .comment-navigation .nav-next,
+.site-main .paging-navigation .nav-next,
+.site-main .post-navigation .nav-next {
+	float: right;
+	text-align: right;
+}
+.site-main .comment-navigation a,
+.site-main .paging-navigation a,
+.site-main .post-navigation a {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #f1f2f3;
+	color: #24282d;
+	text-decoration: none;
+	-webkit-transition: all 250ms ease;
+	-moz-transition: all 250ms ease;
+	-o-transition: all 250ms ease;
+	transition: all 250ms ease;
+}
+.site-main .comment-navigation a:hover, .site-main .comment-navigation a:focus, .site-main .comment-navigation a:active,
+.site-main .paging-navigation a:hover,
+.site-main .paging-navigation a:focus,
+.site-main .paging-navigation a:active,
+.site-main .post-navigation a:hover,
+.site-main .post-navigation a:focus,
+.site-main .post-navigation a:active {
+	color: #e06d5e;
+}
+.site-main .comment-navigation a:hover, .site-main .comment-navigation a:focus, .site-main .comment-navigation a:active,
+.site-main .paging-navigation a:hover,
+.site-main .paging-navigation a:focus,
+.site-main .paging-navigation a:active,
+.site-main .post-navigation a:hover,
+.site-main .post-navigation a:focus,
+.site-main .post-navigation a:active {
+	border-bottom-color: transparent;
+}
+
+/*--------------------------------------------------------------
+Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+}
+.screen-reader-text:hover, .screen-reader-text:focus, .screen-reader-text:active {
+	background-color: #f1f2f3;
+	clip: auto !important;
+	color: #7f8d8c;
+	display: block;
+	font-size: 1em;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 10px 20px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar */
+}
